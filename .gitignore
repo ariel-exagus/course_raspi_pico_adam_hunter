@@ -1,0 +1,20 @@
+# Build
+build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binarios
+*.elf
+*.bin
+*.hex
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+!.vscode/settings.json
