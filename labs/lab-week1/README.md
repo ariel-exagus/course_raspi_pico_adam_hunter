@@ -1,37 +1,26 @@
-# Foobar - Readme Template
+# Lab 1 - week 1
 
-Foobar is a Python library for dealing with word pluralization.
+## I. Propósito del Primer Laboratorio (Lab 1)
 
-## Installation
+El objetivo fundamental de Lab 1 es instalar el entorno de desarrollo y crear su primer programa embebido: hacer parpadear un LED (Blinky).
+Aunque el programa es simple, te exige dominar la configuración de software necesaria para compilar y cargar código en el microcontrolador RP2040.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## II. Componentes Clave del Programa Blinky
 
-```bash
-pip install foobar
-```
+- **Inclusión de la Librería:** Se incluye la librería de alto nivel `pico_standard_lib`. Esta librería jala otras librerías de soporte de bajo nivel, como la interfaz UART, permitiendo la comunicación serial.
 
-## Usage
+- **Definición del Pin:** Se asocia el pin 25 (donde se encuentra el LED integrado en la placa) con la etiqueta `LED_PIN` usando `#define`.
 
-```python
-import foobar
+- **Configuración del GPIO:** Se usan las funciones del SDK para inicializar el pin (configurarlo para uso de E/S desde el procesador, `gpio_init`) y luego establecer su dirección como salida (`gpio_set_dir`).
 
-# returns 'words'
-foobar.pluralize('word')
+- **Lógica del Bucle:** Se utiliza un bucle `while(true)` que alternativamente pone un nivel alto (`gpio_put(LED_PIN, 1)`) y luego un nivel bajo (`gpio_put(LED_PIN, 0)`) en el pin, con una función de retardo (`sleep`) entre cada cambio para crear el parpadeo.
 
-# returns 'geese'
-foobar.pluralize('goose')
+## III. Plan de Implementación Sugerido
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+Para abordar Lab 1, seguiremos estos tres pasos principales:
 
-## Contributing
+1. **Configuración del Entorno:** Instalar la extensión de VS Code y el driver necesario (especialmente importante para máquinas Windows).
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+2. **Construcción del Ejemplo:** Crear un nuevo proyecto a partir del ejemplo Blinky utilizando la extensión de VS Code.
 
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+3. **Compilación y Ejecución:** Compilar el código y cargarlo en la placa Pico para verificar su funcionamiento.
