@@ -51,7 +51,7 @@ uint16_t DAC_data ; // output value
 #define SPI_PORT spi0
 
 //GPIO for timing the ISR
-#define ISR_GPIO 2
+#define ISR_GPIO 25 //2
 
 // DDS sine table
 #define sine_table_size 256

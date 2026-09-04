@@ -1,0 +1,36 @@
+1) Cornell University ECE4760
+Development Boards
+PIC32MX250F128B
+
+https://people.ece.cornell.edu/land/courses/ece4760/PIC32/target_board.html
+
+2) ECE 4760: Laboratory 2
+Cricket Call Generator.
+
+https://people.ece.cornell.edu/land/courses/ece4760/labs/f2017/lab2_cricket.html
+
+3) Generating Analog Signals from Microcontrollers: A Practical Guide
+
+
+https://scruffycatstudios.com/posts/microcontrollers-cv-output/
+
+4) Analog Voltage with MCP4822 and Arduino
+
+https://www.aeq-web.com/analoge-spannung-erzeugen-mit-arduino-und-einem-spi-da-wandler-mcp4822/?lang=en
+
+5) Recreating the Red-Light-Green-Light Doll from Squid Game - ECE 4769 Final project
+
+https://ece4760.github.io/Projects/Fall2022/tg382_kaf245/index.html
+
+6) Spatial Audio Murder Mystery - ECE4760 Project
+
+https://ece4760.github.io/Projects/Fall2022/mk2592_yw575_asx3/index.html
+
+7) CHAOTIC OSCILLATOR AS SOUND
+SYNTHESIS CONTROLLER
+
+https://vanhunteradams.com/6930/Zifu_Qin.pdf
+
+8) Synthesizing Birdsong
+
+https://vanhunteradams.com/Pico/Birds/Birdsong_keypad.html
