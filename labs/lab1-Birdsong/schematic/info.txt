@@ -34,3 +34,7 @@ https://vanhunteradams.com/6930/Zifu_Qin.pdf
 8) Synthesizing Birdsong
 
 https://vanhunteradams.com/Pico/Birds/Birdsong_keypad.html
+
+9) Arduino MCUs and MCP48XX/MCP49XX Family DACs – The Basics
+
+https://www.youtube.com/watch?v=bj57xuQS7L8
